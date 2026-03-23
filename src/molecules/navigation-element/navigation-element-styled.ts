@@ -40,7 +40,7 @@ export const StyledNavigationElement: any = styled(Box)<StyledNavigationElementP
   }
  
   ${({ theme, isSelected }) => isSelected && {
-    backgroundColor: rgba(theme.colors.primary100, 0.2),
+    backgroundColor: rgba(255, 255, 255, 0.2),
     color: theme.colors.primary100,
     '& > .icon-box': {
       color: 'inherit',
