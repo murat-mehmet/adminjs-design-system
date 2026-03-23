@@ -132,7 +132,7 @@ export const Tabs: React.FC<TabsProps> = ({
       <StyledContent role="tablist">
         <Header>
           {tabs.map(({ id, title }) => (
-            <Button role="tab" active={id === currentTab} key={id} onClick={() => onChange(id)} tabId={id}>
+            <Button role="tab" active={id === currentTab} key={id} onClick={() => onChange(id)} tabId={id} type="button">
               {title}
             </Button>
           ))}
